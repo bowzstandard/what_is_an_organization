@@ -1,0 +1,36 @@
+{
+  "name": "what_is_an_organization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "yarn rimraf dist",
+    "build": "yarn clean && tsc",
+    "start": "ts-node src/main.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowzstandard/what_is_an_organization.git"
+  },
+  "author": "bowzstandard",
+  "license": "MIT",
+  "keywords": [
+    "node.js"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-loader": "^9.4.3",
+    "ts-node": "^10.9.1"
+  },
+  "peerDependencies": {},
+  "bugs": {
+    "url": "https://github.com/bowzstandard/what_is_an_organization/issues"
+  },
+  "homepage": "https://github.com/bowzstandard/what_is_an_organization#readme",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}

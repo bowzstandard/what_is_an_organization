@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "allowJs": true,
+    "useDefineForClassFields": true
+  },
+  "ts-node": {
+    "files": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
